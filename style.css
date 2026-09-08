@@ -44,7 +44,10 @@ body{
 }
 
 .cabecalho-titulo{
-    color:#414c2f;
+    color:#414cover;
+    border-radius: 5px;
+}
+c2f;
 }
 
 .cabecalho-lista{
@@ -147,3 +150,17 @@ body{
 body.tema-escuro .cabecalho a {
     color: #FFFFFF;
 }
+
+.descricao{
+text-align:center;
+margin: 2em 0;
+text-shadow: 2px 2px 5px #2e431c2e;
+}
+
+.descricao h2,
+.fale-conosco h2{
+font-size: clamp(28px, 4vw, 44px);
+line-height: 1.2;
+color: #2e431c;
+}
+
