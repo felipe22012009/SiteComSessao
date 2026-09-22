@@ -66,64 +66,49 @@
         <img src="img/soja3.jpg" alt="">
     </div>
 </section>
-<section class="fale-conosco" id="contato">
-    <h2>Contato</h2>
-    <p>Preencha os campos abaixo para entrar em contato com a AgroSilva.</p>
 
-    <form id="formulario-contato" 
-          action="https://formsubmit.co/SEU_EMAIL_AQUI" 
-          method="post">
+<!-- HTML SECAO FORMULARIO -->
+        <section class="fale-conosco" id="contato">
+            <h2>Contato</h2>
+            <p>Preencha os campos abaixo para entrar em contato.</p>
 
-        <input type="hidden" name="_subject" value="Nova mensagem do site AgroSilva">
-        <input type="hidden" name="_template" value="table">
+            <form id="formulario-contato" action="https://formsubmit.co/ajax/vladismara@gmail.com&quot; method="post">
+                <input type="hidden" name="_subject" value="Nova mensagem do site Trigo e Soja">
+                <input type="hidden" name="_template" value="table">
 
-        <label for="nome">Nome:</label>
-        <input 
-            type="text" 
-            id="nome" 
-            name="Nome" 
-            placeholder="Digite seu nome completo" 
-            required
-        >
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="Nome" placeholder="Digite seu nome completo" required>
 
-        <label for="telefone">Telefone:</label>
-        <input 
-            type="tel" 
-            id="telefone" 
-            name="Telefone" 
-            placeholder="(99) 99999-9999" 
-            maxlength="16" 
-            required
-        >
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="Telefone" placeholder="(99) 9 9 999-9999" maxlength="16" required>
 
-        <label for="email">E-mail:</label>
-        <input 
-            type="email" 
-            id="email" 
-            name="email" 
-            placeholder="exemplo@email.com" 
-            required
-        >
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
 
-        <label for="mensagem">Mensagem:</label>
-        <textarea 
-            id="mensagem" 
-            name="Mensagem" 
-            rows="6" 
-            placeholder="Escreva sua mensagem aqui!" 
-            required
-        ></textarea>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="Mensagem" rows="6" placeholder="Escreva sua mensagem aqui!"
+                    required></textarea>
 
-        <button type="submit">Enviar</button>
-    </form>
+                <button type="submit">Enviar</button>
+            </form>
 
-    <p 
-        id="resposta-formulario" 
-        class="aviso-formulario" 
-        aria-live="polite">
-    </p>
-</section>
-    
-        <script src="script.js"></script>
+            <p id="resposta-formulario" class="aviso-formulario" aria-live="polite"></p>
+        </section>
+    </main> <!-- COLOCAR O MAIN ABAIXO DA SECTION -->
+
+        <footer id="fim">
+            <div class="texto">
+                <p>
+                    <strong> Desenvolvido por: </strong>
+                    <em> Vlá Martins</em> <br>
+                    WhatsApp: (43) 9 9999-8888 | vladismara@gmail.com
+                </p>
+            </div>
+        </footer>
+        <!-- acrescentar o voltar  -->
+        <a href="#inicio" class="voltar" aria-label="Voltar ao início"> ⬆️ </a>
+
+   <script src="script.js"></script>
 </body>
+
 </html>
