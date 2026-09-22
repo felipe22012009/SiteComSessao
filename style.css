@@ -143,6 +143,10 @@ body{
     border-radius: 8px;
 }
 
+
+
+
+
 <!-- HTML SECAO FORMULARIO -->
         <section class="fale-conosco" id="contato">
             <h2>Contato</h2>
@@ -177,8 +181,8 @@ body{
                 <p>
                     <strong> Desenvolvido por: </strong>
                     <em> Vlá Martins</em> <br>
-                    </p>
                     WhatsApp: (43) 9 9999-8888 | vladismara@gmail.com
+                </p>
             </div>
         </footer>
         <!-- acrescentar o voltar  -->
